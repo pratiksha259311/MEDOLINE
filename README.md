@@ -3,6 +3,9 @@ MEDOLINE: A real-time platform connecting patients, doctors, and pharmacies for 
 from flask import Flask, render_template
 import requests
 from geopy.geocoders import Nominatim  # Ensure geopy is installed
+streamlit==1.40.2
+geopy==2.3.0
+
 
 app = Flask(__name__)
 
