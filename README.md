@@ -5,8 +5,11 @@ import requests
 from geopy.geocoders import Nominatim  # Ensure geopy is installed
 streamlit==1.40.2
 geopy==2.3.0
-
-
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/pratiksha259311/MEDOLINE.git
+git push -u origin main
 app = Flask(__name__)
 
 # Function to get latitude and longitude from an address
